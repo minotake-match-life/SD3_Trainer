@@ -1,0 +1,21 @@
+[project]
+name = "sd3-5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "accelerate>=1.10.1",
+    "einops>=0.8.1",
+    "fire>=0.7.1",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "open-clip-torch>=3.1.0",
+    "pillow>=11.3.0",
+    "protobuf>=6.32.0",
+    "sentencepiece>=0.2.1",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+    "transformers>=4.56.1",
+    "webdataset>=0.2.100",
+]

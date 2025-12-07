@@ -1,0 +1,3 @@
+# NOTE
+Please download the stable-diffusion-v1-5 model from:
+https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main
