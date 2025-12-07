@@ -350,7 +350,7 @@ def main_worker(local_rank, cluster_args, args):
             if random.random() < 0.15:
                 prompts = [""] * len(prompts)
 
-            # frames: (B, C, T, H, W) -> フレームをバッチにまとめる
+            # frames: (B, C, H, W) -> フレームをバッチにまとめる
             B, C, H, W = frames.shape
             frames = frames.to(device, non_blocking=True) # [-1, 1] 
 
